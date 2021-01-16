@@ -134,3 +134,4 @@ nav li button {
 i:hover {
     color: #ffae42;
 }
+.room-images .row .col-xl-3 img {display: flex;}
