@@ -33,10 +33,25 @@ nav li button {
 }
 
 .bgi {
+    
     background-size: 100% 100%;
     width: 100%;
     height: 620px;
     background-image: url(../images/background-image.jpg);
+    
+    
+}
+
+.HomeColor{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 14, 58);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.5;
+
 }
 .all{
     position: relative;
@@ -61,7 +76,6 @@ nav li button {
 .book{
     margin: auto;
     padding: 5px;
-    
 }
 .input{
     width: 100%;
@@ -69,7 +83,7 @@ nav li button {
     border: white solid 1px;
 }
 .btn1{
-    margin: auto auto auto 16%;
+    
     background-color: #ffae42;
     color: white;
     border: white 1px;
