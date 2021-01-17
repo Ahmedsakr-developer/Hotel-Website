@@ -1,5 +1,8 @@
 /* Start navbar and home page */
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body {
     height: 20000px
 }
@@ -35,7 +38,7 @@ nav li button {
 .bgi {
     background-size: 100% 100%;
     width: 100%;
-    height: 620px;
+    height: 627px;
     background-image: url(../images/background-image.jpg);
 }
 .all{
@@ -99,3 +102,7 @@ nav li button {
 i:hover {
     color: #ffae42;
 }
+.responsive{width: 100%;height: auto;}
+.responsive1{width: 100%;height: auto;}
+.responsive2{width: 100%;height: auto;}
+.responsive3{width: 100%;height: auto;}
