@@ -120,3 +120,12 @@ i:hover {
 .responsive1{width: 100%;height: auto;}
 .responsive2{width: 100%;height: auto;}
 .responsive3{width: 100%;height: auto;}
+.opinions {
+    
+    background-size: 100% 100%;
+    width: 100%;
+    height: 627px;
+    background-image: url(../Images/opinions.jpg);
+    
+    
+}
