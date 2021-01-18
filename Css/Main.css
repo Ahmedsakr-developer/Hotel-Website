@@ -131,7 +131,7 @@ i:hover {
     height: 627px;
     background-image: url(../Images/opinions.jpg);
 }
-<<<<<<< HEAD
+
 .opinions .overlay{
     width: 100%;
     height: 100%;
@@ -159,6 +159,6 @@ i:hover {
 .card p{
     text-align: center;
 }
-=======
+
 .opinions .card  img {width: 100px; margin: auto; margin-top: 20px;  }
->>>>>>> b98f35c3c817c6f5b8160374addaf492cea8126f
+
