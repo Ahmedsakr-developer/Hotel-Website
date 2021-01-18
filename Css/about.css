@@ -94,8 +94,33 @@ nav li button {
     background-color: #ffae42 !important;
 }
 
-.ahmed {
-    width: 100%;
-    height: auto;
+.background-image {
+    background-size: 100% 100%;
+    width: 690px;
+    height: 627px;
+    background-image: url(../Images/pool.jpg);
 }
+
+
+.ahmed {
+    font-size: 50px;
+}
+
+.ahm {
+    font-size: 25px;
+}
+
+.background1-image {
+    background-size: 100% 100%;
+    width: 100%;
+    height: 627px;
+    background-image: url(../Images/wedding.jpg);
+}
+
+
+
+
+
+
+
 
