@@ -120,45 +120,53 @@ i:hover {
     color: #ffae42;
 }
 
-.rooms .item{
-   
+.rooms .item {
     height: 400px;
 }
 
-.opinions{
+.opinions {
     background-size: 100% 100%;
     width: 100%;
     height: 627px;
     background-image: url(../Images/opinions.jpg);
 }
-<<<<<<< HEAD
-.opinions .overlay{
+
+.opinions .overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(3, 14, 58, 0.5);
 }
-.card .cal{
+
+.card .cal {
     padding: 30px;
 }
-.card{
+
+.card {
     margin: 5% 10px 5% 10px;
     border-radius: 0px !important;
 }
-.card .card-img-top{
+
+.card .card-img-top {
     margin: auto !important;
     width: 25% !important;
 }
-.card .card-body{
+
+.card .card-body {
     text-align: center;
 }
-.card .img-boy{
+
+.card .img-boy {
     width: 150px !important;
     margin: auto;
     border-radius: 50%;
 }
-.card p{
+
+.card p {
     text-align: center;
 }
-=======
-.opinions .card  img {width: 100px; margin: auto; margin-top: 20px;  }
->>>>>>> b98f35c3c817c6f5b8160374addaf492cea8126f
+
+.opinions .card img {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
