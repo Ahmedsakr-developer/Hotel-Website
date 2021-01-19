@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.owl-carousel').owlCarousel({
+    $('.caracter').owlCarousel({
         loop: true,
         margin: 10,
         nav: true,
@@ -9,7 +9,11 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
+            
             600: {
+                items: 1
+            },
+            770: {
                 items: 2
             },
             1000: {
@@ -32,6 +36,24 @@ $(document).ready(function () {
             },
             1000: {
                 items: 4
+            }
+        }
+    });
+    $('.SelectRoom').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        margin:1,
+        merge:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            800: {
+                items: 2
+            },
+            1000: {
+                items: 3
             }
         }
     });

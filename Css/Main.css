@@ -5,9 +5,6 @@ html, body {
     overflow-x: hidden;
 }
 
-body {
-    height: 20000px
-}
 
 .navbar a {
     color: white !important;
@@ -27,6 +24,7 @@ nav li button {
     color: white;
     padding: 10px 20px;
     background-color: #ffae42;
+    border-radius: 5px;
 }
 
 .navbar ul li .nav-link {
@@ -94,6 +92,7 @@ nav li button {
     color: white;
     border: white 1px;
     padding: 12px 30px;
+    border-radius: 10px;
 }
 
 .phone img {
@@ -176,3 +175,90 @@ i:hover {
 .opinions .card  img {
     width: 100px; margin: auto; margin-top: 20px; 
  }
+ .BookRoom{
+    margin: 100px auto;
+    text-align: center;
+}
+.BookRoom h1{
+    margin: 50px;
+}
+.BookRoom p{
+    color: rgb(100, 100, 100);
+}
+.SelectRoom .single{
+   position: relative;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 500px;
+    background-image: url(../Images/single-room.jpg);
+}
+.SelectRoom .family{
+   position: relative;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 500px;
+    background-image: url(../Images/family-room.jpg);
+}
+.SelectRoom .deluxe{
+   position: relative;
+    background-size: 100% 100%;
+    width: 350px;
+    height: 500px;
+    background-image: url(../Images/deluxe-room.jpg);
+
+}
+.priceNight{
+    position: absolute;
+   background-color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.BookButton{
+   width: 90%;
+    margin: 20px;
+    padding: 30px;
+
+    position: absolute;
+    top:70%;
+}
+.BookButton button{
+    background-color: #ffae42;
+    color: white;
+}
+.roomHover{
+    width: 100%;
+    height: 100%;
+}
+.roomHover:hover{
+    background:rgba(3, 14, 58, 0.6);
+    
+    
+}
+.slide{
+    margin: 50px auto;
+    width: 750px;
+    height: 400px;
+    
+}
+.carousel-item .carousel-caption h1{
+    color: #810101;
+    font-size: 47px;
+}
+.carousel-item .carousel-caption a{
+    text-decoration: none;
+}
+.carousel-item .carousel-caption h1:hover{
+    color: blue;
+}
+.hotel {
+
+    margin: auto;
+    width: 20%;
+  
+    border: 5px solid #FFFF00;
+  
+    padding: 10px;
+  
+  }
