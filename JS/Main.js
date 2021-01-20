@@ -58,13 +58,30 @@ $(document).ready(function () {
         }
     });
 
-});
-$(document).ready(function () {
+    $(document).ready(function () {
 
-    $('.ahmed').counterUp({
-        delay: 10,
-        time: 1000
+        $('.ahmed').counterUp({
+            delay: 10,
+            time: 1000
+        });
     });
+    
+
+    jQuery('.fittext').fitText();
+    $(window).scroll(function () {
+        let x = $(window).scrollTop()
+        if (x > 50) {
+            $('.navbar').css({
+                'background' : 'black',
+                'opacity' : '0.7'
+            })
+        }else{
+            $('.navbar').css({
+                'opacity' : '1'
+            })
+        }
+    })
+
 });
 
 
