@@ -9,7 +9,7 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-            
+
             600: {
                 items: 1
             },
@@ -43,8 +43,8 @@ $(document).ready(function () {
         loop: true,
         margin: 10,
         nav: true,
-        margin:1,
-        merge:true,
+        margin: 1,
+        merge: true,
         responsive: {
             0: {
                 items: 1
@@ -57,6 +57,14 @@ $(document).ready(function () {
             }
         }
     });
-    
+
 });
+$(document).ready(function () {
+
+    $('.ahmed').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
+
 
