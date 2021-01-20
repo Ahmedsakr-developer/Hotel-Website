@@ -2,7 +2,6 @@ $(document).ready(function () {
     $('.caracter').owlCarousel({
         loop: true,
         margin: 10,
-        nav: true,
         autoplay: true,
         autoplayTimeout: 2000,
         responsive: {
@@ -24,7 +23,6 @@ $(document).ready(function () {
     $('.ImgSlider').owlCarousel({
         loop: true,
         margin: 10,
-        nav: true,
         autoplay: true,
         autoplayTimeout: 2000,
         responsive: {
@@ -42,7 +40,6 @@ $(document).ready(function () {
     $('.SelectRoom').owlCarousel({
         loop: true,
         margin: 10,
-        nav: true,
         margin: 1,
         merge: true,
         responsive: {
