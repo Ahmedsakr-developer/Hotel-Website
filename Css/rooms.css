@@ -92,20 +92,7 @@ nav li button {
 
 .luxury-room-slider {
     margin-top: 80px;
-}
-<<<<<<< HEAD
-.hotel {
-
-    margin: auto;
-  
-    width: 20%;
-  
-    border: 5px solid #FFFF00;
-  
-    padding: 10px;
-  
-  }
-=======
+} 
 
 .hotel {
     margin: auto;
@@ -113,4 +100,3 @@ nav li button {
     border: 5px solid #FFFF00;
     padding: 10px;
 }
->>>>>>> ade4d3c06e145b8e5c41e8cccbf6abca87cdcfb9
