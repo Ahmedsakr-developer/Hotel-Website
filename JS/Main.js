@@ -8,7 +8,6 @@ $(document).ready(function () {
             0: {
                 items: 1
             },
-
             600: {
                 items: 1
             },
