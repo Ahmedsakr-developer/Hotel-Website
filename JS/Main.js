@@ -78,3 +78,8 @@ $(document).ready(function () {
         time: 1000
     });
 });
+
+$("#datetime").datetimepicker();
+
+$("#datetime1").datetimepicker();
+
