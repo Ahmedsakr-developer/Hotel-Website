@@ -17,11 +17,7 @@ nav li button {
     padding: 10px 20px !important;
 }
 
-.num {
-    color: white;
-    padding: 10px 20px;
-    background-color: #ffae42;
-}
+
 
 .navbar ul li .nav-link {
     color: white !important;
@@ -79,9 +75,22 @@ nav li button {
 
 .input {
     width: 100%;
-    padding: 10px 15px;
+    padding: 12px 20px;
     border: white solid 1px;
 }
+.book .input{
+    width: 100%;
+   
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+    background-color:rgba(247, 174, 66, 0.5);
+    color: white;
+}
+.input::placeholder {
+    color: white;
+    opacity: 1;
+  }
 
 .btn1 {
     background-color: #ffae42;
