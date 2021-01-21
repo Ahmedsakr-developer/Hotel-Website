@@ -5,7 +5,6 @@ html, body {
     overflow-x: hidden;
 }
 
-
 .navbar a {
     color: white !important;
 }
@@ -19,8 +18,6 @@ html, body {
 nav li button {
     padding: 10px 20px !important;
 }
-
-
 
 .navbar ul li .nav-link {
     color: white !important;
@@ -78,22 +75,23 @@ nav li button {
 
 .input {
     width: 100%;
-    padding: 12px 20px;
+    padding: 4px;
     border: white solid 1px;
 }
-.book .input{
+
+.book .input {
     width: 100%;
-   
-    margin: 8px 0;
+    /* margin: 8px 0; */
     box-sizing: border-box;
-    
-    background-color:rgba(247, 174, 66, 0.5);
+    background-color: rgba(247, 174, 66, 0.5);
     color: white;
+    height: 50px;
 }
+
 .input::placeholder {
     color: white;
     opacity: 1;
-  }
+}
 
 .btn1 {
     background-color: #ffae42;
@@ -138,9 +136,7 @@ i:hover {
     background-image: url(../Images/opinions.jpg);
 }
 
-
-.opinions .overlay{
-
+.opinions .overlay {
     width: 100%;
     height: 100%;
     background-color: rgba(3, 14, 58, 0.5);
@@ -174,99 +170,108 @@ i:hover {
     text-align: center;
 }
 
+.opinions .card img {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+}
 
 .opinions .card img {
     width: 100px;
     margin: auto;
     margin-top: 20px;
 }
-.opinions .card  img {
-    width: 100px; margin: auto; margin-top: 20px; 
- }
- .BookRoom{
+
+.BookRoom {
     margin: 100px auto;
     text-align: center;
 }
-.BookRoom h1{
+
+.BookRoom h1 {
     margin: 50px;
 }
-.BookRoom p{
+
+.BookRoom p {
     color: rgb(100, 100, 100);
 }
-.SelectRoom .single{
-   position: relative;
+
+.SelectRoom .single {
+    position: relative;
     background-size: 100% 100%;
     width: 350px;
     height: 500px;
     background-image: url(../Images/single-room.jpg);
 }
-.SelectRoom .family{
-   position: relative;
+
+.SelectRoom .family {
+    position: relative;
     background-size: 100% 100%;
     width: 350px;
     height: 500px;
     background-image: url(../Images/family-room.jpg);
 }
-.SelectRoom .deluxe{
-   position: relative;
+
+.SelectRoom .deluxe {
+    position: relative;
     background-size: 100% 100%;
     width: 350px;
     height: 500px;
     background-image: url(../Images/deluxe-room.jpg);
-
 }
-.priceNight{
+
+.priceNight {
     position: absolute;
-   background-color: white;
+    background-color: white;
     margin: 10px;
     padding: 10px 20px;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
 }
-.BookButton{
-   width: 90%;
+
+.BookButton {
+    width: 90%;
     margin: 20px;
     padding: 30px;
-
     position: absolute;
-    top:70%;
+    top: 70%;
 }
-.BookButton button{
+
+.BookButton button {
     background-color: #ffae42;
     color: white;
 }
-.roomHover{
+
+.roomHover {
     width: 100%;
     height: 100%;
 }
-.roomHover:hover{
-    background:rgba(3, 14, 58, 0.6);
-    
-    
+
+.roomHover:hover {
+    background: rgba(3, 14, 58, 0.6);
 }
-.slide{
+
+.slide {
     margin: 50px auto;
     width: 750px;
     height: 400px;
-    
 }
-.carousel-item .carousel-caption h1{
+
+.carousel-item .carousel-caption h1 {
     color: #810101;
     font-size: 47px;
 }
-.carousel-item .carousel-caption a{
+
+.carousel-item .carousel-caption a {
     text-decoration: none;
 }
-.carousel-item .carousel-caption h1:hover{
+
+.carousel-item .carousel-caption h1:hover {
     color: blue;
 }
-.hotel {
 
+.hotel {
     margin: auto;
     width: 20%;
-  
     border: 5px solid #FFFF00;
-  
     padding: 10px;
-  
-  }
+}

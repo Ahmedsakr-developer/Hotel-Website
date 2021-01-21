@@ -17,8 +17,6 @@ nav li button {
     padding: 10px 20px !important;
 }
 
-
-
 .navbar ul li .nav-link {
     color: white !important;
 }
@@ -75,28 +73,30 @@ nav li button {
 
 .input {
     width: 100%;
-    padding: 12px 20px;
+    padding: 4px;
     border: white solid 1px;
 }
-.book .input{
+
+.book .input {
     width: 100%;
-   
-    margin: 8px 0;
+    /* margin: 8px 0; */
     box-sizing: border-box;
-    
-    background-color:rgba(247, 174, 66, 0.5);
+    background-color: rgba(247, 174, 66, 0.5);
     color: white;
+    height: 50px;
 }
+
 .input::placeholder {
     color: white;
     opacity: 1;
-  }
+}
 
 .btn1 {
     background-color: #ffae42;
     color: white;
     border: white 1px;
     padding: 12px 30px;
+    border-radius: 10px;
 }
 
 .phone img {

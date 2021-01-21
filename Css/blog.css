@@ -1,4 +1,3 @@
-
 .navbar a {
     color: white !important;
 }
@@ -13,7 +12,6 @@ nav li button {
     padding: 10px 20px !important;
 }
 
-
 .navbar ul li .nav-link {
     color: white !important;
 }
@@ -21,6 +19,7 @@ nav li button {
 .navbar ul li .nav-link:hover {
     color: #ffae42 !important;
 }
+
 .bgi {
     background-size: 100% 100%;
     width: 100%;
@@ -69,22 +68,23 @@ nav li button {
 
 .input {
     width: 100%;
-    padding: 12px 20px;
+    padding: 4px;
     border: white solid 1px;
 }
-.book .input{
+
+.book .input {
     width: 100%;
-   
-    margin: 8px 0;
+    /* margin: 8px 0; */
     box-sizing: border-box;
-    
-    background-color:rgba(247, 174, 66, 0.5);
+    background-color: rgba(247, 174, 66, 0.5);
     color: white;
+    height: 50px;
 }
+
 .input::placeholder {
     color: white;
     opacity: 1;
-  }
+}
 
 .btn1 {
     background-color: #ffae42;
@@ -98,21 +98,24 @@ nav li button {
     background-color: #ffae42 !important;
 }
 
-.cardOfBlog{
+.cardOfBlog {
     margin-top: 100px;
 }
-.cardOfBlog .card-body a{
+
+.cardOfBlog .card-body a {
     text-decoration: none;
     color: black;
 }
-.cardOfBlog .card-body a:hover{
+
+.cardOfBlog .card-body a:hover {
     color: #ffae42;
 }
 
-.cardOfBlog .card-body p{
+.cardOfBlog .card-body p {
     color: rgb(78, 78, 78);
 }
-.cardOfBlog .card-body button{
+
+.cardOfBlog .card-body button {
     margin: auto;
     padding: 10px;
     background-color: #ffae42;
@@ -121,33 +124,33 @@ nav li button {
     text-align: center;
     border-radius: 5px;
 }
-.search{
-    margin: 30px auto;
-    
 
+.search {
+    margin: 30px auto;
 }
-.search .btn{
-    border-radius: 0px ;
+
+.search .btn {
+    border-radius: 0px;
     background-color: #ffae42;
     color: white;
 }
-.search .form-control{
+
+.search .form-control {
     border-radius: 0px;
 }
-.info a{
+
+.info a {
     text-decoration: none;
     color: rgb(116, 115, 115);
 }
-.info a:hover{
+
+.info a:hover {
     color: #ffae42;
 }
-.hotel {
 
+.hotel {
     margin: auto;
     width: 20%;
-  
     border: 5px solid #FFFF00;
-  
     padding: 10px;
-  
-  }
+}
