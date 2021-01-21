@@ -58,12 +58,12 @@ $(document).ready(function () {
         let x = $(window).scrollTop()
         if (x > 50) {
             $('.navbar').css({
-                'background' : 'black',
-                'opacity' : '0.7'
+                'background': '#032535',
+                'opacity': '0.7'
             })
-        }else{
+        } else {
             $('.navbar').css({
-                'opacity' : '1'
+                'opacity': '1'
             })
         }
     })
