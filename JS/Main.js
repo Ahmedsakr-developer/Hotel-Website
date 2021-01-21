@@ -53,16 +53,6 @@ $(document).ready(function () {
             }
         }
     });
-
-    $(document).ready(function () {
-
-        $('.ahmed').counterUp({
-            delay: 10,
-            time: 1000
-        });
-    });
-    
-
     jQuery('.fittext').fitText();
     $(window).scroll(function () {
         let x = $(window).scrollTop()
@@ -81,3 +71,10 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+
+    $('.ahmed').counterUp({
+        delay: 10,
+        time: 1000
+    });
+});
